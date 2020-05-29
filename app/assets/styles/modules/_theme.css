@@ -1,0 +1,30 @@
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  font-family: 'Over the Rainbow', cursive;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+main {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+footer {
+  margin: 1rem 0;
+  font-size: 14px;
+}

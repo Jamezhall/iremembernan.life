@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.css": "scss"
+  },
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+  "[html]": {
+    "editor.formatOnSave": false
+  }
+}

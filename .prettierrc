@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80
+}
