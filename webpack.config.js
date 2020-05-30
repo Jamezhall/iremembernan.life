@@ -18,16 +18,14 @@ class RunAfterCompile {
     compiler.hooks.done.tap('Copy images', function () {
       fse.copySync('./app/assets/images', './dist/assets/images');
       fse.copySync('./app/assets/favicon', './dist');
+      fse.copySync('./app/manifest.json', './dist/manifest.json');
     });
   }
 }
 
 let cssConfig = {
   test: /\.css$/i,
-  use: [
-    'css-loader?url=false',
-    { loader: 'postcss-loader', options: { plugins: postCSSPlugins } }
-  ]
+  use: ['css-loader?url=false', { loader: 'postcss-loader', options: { plugins: postCSSPlugins } }]
 };
 
 let pages = fse
